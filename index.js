@@ -22,30 +22,30 @@ function getRandomInt(max) {
   }
   // user picks r
   else if (userChoice == 'r' && computerChoice == 'p'){
-    console.log (`user loses`);
-    window.alert ('user loses');
+    console.log (`you loses`);
+    window.alert ('you loses');
   }
   else if(userChoice == 'r' && computerChoice == 's'){
-console.log('user wins!');
-window.alert ('user wins');
+console.log('you wins!');
+window.alert ('you wins');
   }
 // user picks p 
 else if (userChoice == 'p' && computerChoice == 's'){
-    console.log (`user loses`);
-    window.alert ('user loses');
+    console.log (`you loses`);
+    window.alert ('you loses');
   }
   else if(userChoice == 'p' && computerChoice == 'r'){
-console.log('user wins!');
-window.alert ('user wins');
+console.log('you wins!');
+window.alert ('you wins');
   }
   //user pics s
   else if (userChoice == 's' && computerChoice == 'r'){
-    console.log (`user loses`);
-    window.alert ('user loses');
+    console.log (`you loses`);
+    window.alert ('you loses');
   }
   else if(userChoice == 's' && computerChoice == 'p'){
-console.log('user wins!');
-window.alert ('user wins');
+console.log('you wins!');
+window.alert ('you wins');
   }
 
 else {
